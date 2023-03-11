@@ -1,0 +1,39 @@
+:root {
+    --font-color: rgb(33, 37, 41);
+    --bg-color: #ffffff;
+    --line-color: #78787857;
+}
+
+[data-theme="dark"] {
+    --font-color: rgb(225, 225, 225);
+    --bg-color: #050607;
+    --line-color: #78787857;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+    width: 6px;
+    border-radius: 12px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #c6c6c650;
+    display: none;
+    width: 6px;
+    border-radius: 12px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 2em;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
